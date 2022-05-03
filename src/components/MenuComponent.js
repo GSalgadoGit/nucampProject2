@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb, BreadcrumbItem, Card, CardImg, CardTitle} from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem, Card, CardImg} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import restImage4 from "../images/Restaurant-Menu.jpg";
 
