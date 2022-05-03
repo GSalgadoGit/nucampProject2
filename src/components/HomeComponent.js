@@ -100,7 +100,8 @@ function Home(props) {
               <CardImg src={restImage4} alt={"Menu"} />
             </Card>
           </div>
-        </div>     
+        </div>
+        {/* Location - Contact      */}
         <div className="row">  
           <div className="col-4 m-1">
             <br />
