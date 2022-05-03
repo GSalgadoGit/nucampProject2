@@ -18,14 +18,14 @@ function About(props) {
           </div>
         </div>
         <div className="row">  
-          <div className="col-4 m-1">
+          <div className="col-4 my-1 ml-3 queencolor">
             <br />
             <h2>Our Story</h2>
             <br />
             <h5>Queen City Bytes is a</h5>
             <h5>unique and high quality ..</h5>
           </div>   
-          <div className="col-lg m-1">
+          <div className="col-lg my-1 pl-1">
             <Card>
                <CardImg src={restImage5} alt={"Location"} />
             </Card>

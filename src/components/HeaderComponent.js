@@ -47,11 +47,11 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-              <Navbar sticky="top" className="queencity">
+              <Navbar className = "navbar-dark bg-dark">
                 <NavbarBrand href="/">
                     <h1>Queen City Bytes</h1>
                 </NavbarBrand>
-                <NavbarToggler onClick={this.toggleNav2} />
+                <NavbarToggler onClick={this.toggleNav2}/>
                 <Collapse isOpen={this.state.isNav2Open} navbar>
                             <Nav navbar>
                                 <NavItem >
@@ -83,7 +83,7 @@ class Header extends Component {
                          </Collapse>                    
               </Navbar>
 
-              <Navbar  expand="md" className="navbar">
+              <Navbar  expand="md" className="navbar sticky-top"  >
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/Queen logo2.jpg" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />

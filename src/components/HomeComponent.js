@@ -23,19 +23,19 @@ function Home(props) {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-lg m-1">
+          <div className="col-lg m-1 ml-2">
             <Card>
                <CardImg src={restImage1} alt={"Hamilton"} />
             </Card>
           </div>
         </div>  
         <div className="row"> 
-          <div className="col-3 m-1">
-              <h2>Reservation</h2>
-              <Button size="lg"  onClick={toggleModal}>
-                Book Now
-              </Button>
-                
+          <div className="col-3 my-1 ml-4 queencolor">
+                <br /> <br /> <br />
+                <h2 > Reservation</h2>
+                <Button size="lg"  onClick={toggleModal}>
+                  Book Now
+                </Button>
                 {/* Reservation Modal Form */}
                 <Modal isOpen={modal} toggle={toggleModal}>
                     <ModalHeader toggle={toggleModal}>Reserve a Table</ModalHeader>
@@ -84,7 +84,7 @@ function Home(props) {
                 </Modal>
               
           </div>   
-          <div className="col-lg m-1">
+          <div className="col-lg my-1 mr-1 pl-1">
             <Card>
                <CardImg src={restImage2} alt={"Reservation"} />
             </Card>
@@ -92,7 +92,7 @@ function Home(props) {
         </div>  
        {/* Menu */}
         <div className="row">  
-          <div className="col-lg m-1">
+          <div className="col-lg m-1 ml-2">
             <Card>
               <CardTitle className="text-center bg-dark " >
                 <h2 className="bg-dark text-white">Queen City Bytes Menu</h2>
@@ -103,7 +103,7 @@ function Home(props) {
         </div>
         {/* Location - Contact      */}
         <div className="row">  
-          <div className="col-4 m-1">
+          <div className="col-4 my-1 ml-4 queencolor">
             <br />
             <h2>Location & Hours</h2>
             <h5>123 Tremont RD</h5>
@@ -116,14 +116,14 @@ function Home(props) {
             <h5><b>Tel:</b> 704-123-5555</h5>
             <h5><b>Email:</b> bokingnow@fast.com</h5>
           </div>   
-          <div className="col-lg m-1">
+          <div className="col-lg my-1 pl-1">
             <Card>
                <CardImg src={restImage3} alt={"Location"} />
             </Card>
           </div>
        </div>
        <div className="row">  
-          <div className="col-4 m-1">
+          <div className="col-4 my-1 ml-4 queencolor">
             <br />
             <h2>Our Story</h2>
             <br />
@@ -131,7 +131,7 @@ function Home(props) {
             <h5>unique and high quality ..</h5>
             
           </div>   
-          <div className="col-lg m-1">
+          <div className="col-lg my-1 pl-1">
             <Card>
                <CardImg src={restImage5} alt={"Location"} />
             </Card>

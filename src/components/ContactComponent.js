@@ -18,7 +18,7 @@ function Contact(props) {
           </div>
         </div>
         <div className="row">  
-          <div className="col-4 m-1">
+          <div className="col-4 my-1 ml-3 queencolor">
             <br />
             <h5>123 Tremont RD</h5>
             <h5>Charlotte, NC 28203</h5>
@@ -31,7 +31,7 @@ function Contact(props) {
             <h5><b>Tel:</b> 704-123-5555</h5>
             <h5><b>Email:</b> bokingnow@fast.com</h5>
           </div>   
-          <div className="col-lg m-1">
+          <div className="col-lg my-1 pl-1">
             <Card>
                <CardImg src={restImage3} alt={"Location"} />
             </Card>
