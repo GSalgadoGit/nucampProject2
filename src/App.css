@@ -12,7 +12,11 @@ h1, h2, h3, .card-body>.card-title {
 }
 
 h2 {
-  color: #3046C5;
+  color: blue;
+}
+
+h1  {
+  color: white;
 }
 
 .card-img-overlay .card-title {
@@ -44,4 +48,16 @@ h2 {
 
 .navbar-dark {
   background-color: #901CAD;
+}
+
+.navbar {
+  background-color: #62c1a1;
+}
+
+.queencity {
+  background-color: black;
+}
+
+.nav-link {
+  color: white;
 }

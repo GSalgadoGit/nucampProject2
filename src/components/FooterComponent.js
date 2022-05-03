@@ -10,9 +10,9 @@ function Footer(props) {
                         <h5>Links</h5>
                         <ul className="list-unstyled">
                             <li><Link to='/home'>Home</Link></li>
-                            <li><Link to='/directory'>Directory</Link></li>
-                            <li><Link to='/aboutus'>About</Link></li>
-                            <li><Link to='/contactus'>Contact</Link></li>
+                            <li><Link to='/aboutus'>Our Story</Link></li>
+                            <li><Link to='/viewmenu'>View Menu</Link></li>
+                            <li><Link to='/location'>Location</Link></li>
                         </ul>
                     </div>
                     <div className="col-6 col-sm-3 text-center">
@@ -20,11 +20,10 @@ function Footer(props) {
                         <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>{' '}
                         <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>{' '}
                         <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>{' '}
-                        <a className="btn btn-social-icon btn-google" href="http://youtube.com/"><i className="fa fa-youtube" /></a> 
                     </div>
                     <div className="col-sm-4 text-center">
-                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                        <a role="button" className="btn btn-link" href="tel:17047634444"><i className="fa fa-phone" /> 704-763-5555</a><br />
+                        <a role="button" className="btn btn-link" href="mailto:queencitybites@gmail.com"><i className="fa fa-envelope-o" /> queencitybites@gmail.com</a>
                     </div>
                 </div>
             </div>

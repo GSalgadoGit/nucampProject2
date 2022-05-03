@@ -47,12 +47,14 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment>
-              <Navbar sticky="top" color="dark" dark>
-                <NavbarBrand href="/">Queen City Bytes</NavbarBrand>
+              <Navbar sticky="top" className="queencity">
+                <NavbarBrand href="/">
+                    <h1>Queen City Bytes</h1>
+                </NavbarBrand>
                 <NavbarToggler onClick={this.toggleNav2} />
                 <Collapse isOpen={this.state.isNav2Open} navbar>
-                            <Nav  navbar>
-                                <NavItem>
+                            <Nav navbar>
+                                <NavItem >
                                     <NavLink className="nav-link" to="/home">
                                         <i className="fa fa-home fa-lg" /> Home
                                     </NavLink>
@@ -81,7 +83,7 @@ class Header extends Component {
                          </Collapse>                    
               </Navbar>
 
-              <Navbar dark  expand="md">
+              <Navbar  expand="md" className="navbar">
                     <div className="container">
                         <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/Queen logo2.jpg" height="30" width="30" alt="NuCamp Logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
@@ -112,6 +114,17 @@ class Header extends Component {
                                 <Button outline onClick={this.toggleModal}>
                                     <i className="fa fa-calendar fa-lg" /> Reservation
                                 </Button>
+                            </span>
+                            <span className="navbar-text mr-auto">
+                               <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/">
+                                   <i class="fa fa-instagram"></i>
+                                </a> {' '}
+                                <a className="btn btn-social-icon btn-facebook" href="http://facebook.com/">
+                                    <i class="fa fa-facebook"></i>
+                                </a> {' '}
+                                <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
                             </span>
                          </Collapse>
                     </div>
