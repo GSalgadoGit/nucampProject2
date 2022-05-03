@@ -1,9 +1,11 @@
 import React from 'react';
-import { Card, CardImg, Button, Modal, ModalHeader, ModalBody,
+import { Card, CardImg, CardTitle, Button, Modal, ModalHeader, ModalBody,
   Form, FormGroup, Input, Label } from 'reactstrap';
 import restImage1 from "../images/madie-hamilton-m.jpg";
 import restImage2 from "../images/Reservation.jpg";
 import restImage3 from "../images/Restaurant Location.jpg";
+import restImage4 from "../images/Restaurant-Menu.jpg";
+import restImage5 from "../images/Our Story.jpg";
 
 
 function Home(props) {
@@ -88,8 +90,20 @@ function Home(props) {
             </Card>
           </div>
         </div>  
+       {/* Menu */}
+        <div className="row">  
+          <div className="col-lg m-1">
+            <Card>
+              <CardTitle className="text-center">
+                <h2>Queen City Bytes Menu</h2>
+              </CardTitle>
+              <CardImg src={restImage4} alt={"Menu"} />
+            </Card>
+          </div>
+        </div>     
         <div className="row">  
           <div className="col-4 m-1">
+            <br />
             <h2>Location & Hours</h2>
             <h5>123 Tremont RD</h5>
             <h5>Charlotte, NC 28203</h5>
@@ -106,7 +120,22 @@ function Home(props) {
                <CardImg src={restImage3} alt={"Location"} />
             </Card>
           </div>
-      </div>
+       </div>
+       <div className="row">  
+          <div className="col-4 m-1">
+            <br />
+            <h2>Our Story</h2>
+            <br />
+            <h5>Queen City Bytes is a</h5>
+            <h5>unique and high quality ..</h5>
+            
+          </div>   
+          <div className="col-lg m-1">
+            <Card>
+               <CardImg src={restImage5} alt={"Location"} />
+            </Card>
+          </div>
+       </div>
   </div>
 );
 }
