@@ -94,8 +94,8 @@ function Home(props) {
         <div className="row">  
           <div className="col-lg m-1">
             <Card>
-              <CardTitle className="text-center">
-                <h2>Queen City Bytes Menu</h2>
+              <CardTitle className="text-center bg-dark " >
+                <h2 className="bg-dark text-white">Queen City Bytes Menu</h2>
               </CardTitle>
               <CardImg src={restImage4} alt={"Menu"} />
             </Card>
